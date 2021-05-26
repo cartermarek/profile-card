@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+}
+
+body {
+    margin: auto;
+    width: 50%;
+    background-color: blue;
+}
+
+.card {
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 50%;
+}
+
+.header {
+    background-image: linear-gradient(to right bottom, green, orange);
+    text-align: center;
+    position: relative;
+    height: 150px;
+}
+
+img {
+    border-radius: 50%;
+    position: absolute;
+    top: 70px;
+    left: 115px;
+    border: 3px solid firebrick;
+    width: 150px;
+    height: 150px;
+}
+
+img:hover {
+    filter: blur(2px);
+}
+
+.body {
+    text-align: center;
+    
+    padding-top: 100px;
+    line-height: 40px;
+}
+
+span {
+    color: grey;
+    padding-left: 8px;
+}
+
+h3 {
+    padding-bottom: 15px;
+}
+
+.hori-line {
+    width: 95%;
+    margin: auto;
+}
+hr {
+    width: 99%;
+    background-color: firebrick;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.stat-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px;
+}
+
+.stat-box:hover {
+    transform: translateY(-5px);
+    transition: all 0.5s;
+    box-shadow: 1px 0 3px 0 #ccc;
+}
